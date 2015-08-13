@@ -105,6 +105,8 @@
     <version.plugin.aspectj>1.6</version.plugin.aspectj>
     <version.plugin.maven-replacer-plugin>1.3.2</version.plugin.maven-replacer-plugin>
 
+        <version.dep.xml-apis>1.4.01</version.dep.xml-apis>
+
   </properties>
 
   <!-- ==[ Dependencies ]=================================================== -->
@@ -166,6 +168,13 @@
         <artifactId>commons-math3</artifactId>
         <version>${version.dep.commons-math3}</version>
       </dependency>
+
+	<!-- FIXME: -->
+	<dependency>
+		<groupId>xml-apis</groupId>
+		<artifactId>xml-apis</artifactId>
+		<version>${version.dep.xml-apis}</version>
+	</dependency>
 
       <!-- Joda-Time - Java date and time API -->
       <dependency>
